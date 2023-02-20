@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Nav Bar */
+
+#header-img {
+    width: 20vw;
+    margin-left: 2%;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.lista-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70vw;
+    align-self: baseline;
+    list-style: none;
+}
+
+.menu-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu-link:hover {
+    color: #f1a20f;
+}
+/* FIN NAVBAR */
+
+/* FORMS */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+#email {
+    margin: 4%;
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Info */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 5%;
+}
+
+.grid {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 40vw;
+}
+
+
+/* VIDEO */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 4% 0%;
+}
+
+.container-video {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Prices */
+
+.prices {
+    margin: 5%;
+}
+
+#card {
+    margin: 5%;
+    border: 2px solid  #f1a20f;
+}
+
+button{
+    margin: 5% 1.3%;
+    width: 180px;
+    height: 60px;
+    cursor: crosshair;
+    background: transparent;
+    border: 1px solid #a0dddb;
+    outline: none;
+    transition: 0.7s ease-in-out;
+}
+
+button:hover {
+    transition: 0.5s ease-in-out;
+    background: #f1a20f;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
